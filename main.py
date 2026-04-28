@@ -26,8 +26,7 @@ def predict(data: CryptoInput):
 @app.get("/market-insight")
 def market():
     return {
-        "Coin":"Bitcoin",
-        "Trend":"Bullish",
-        "Volatility":"Medium",
-        "Volume Trend":"Increasing"
+      "Coin":"Bitcoin",
+      "Trend":"Bullish"
     }
+    
